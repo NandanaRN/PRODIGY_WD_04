@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff; /* Default text color white */
+    background: url('pic2.jpg') no-repeat center center fixed; /* Background image for the entire page */
+    background-size: cover; /* Cover the entire page */
+}
+
+/* Header Styles */
+header {
+    background: rgba(34, 34, 34, 0.8); /* Darker overlay for header */
+    color: #fff; /* White text color in the header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile-pic-square {
+    width: 400px; /* Adjusted size */
+    height: 400px; /* Adjusted size */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    object-fit: cover; /* Ensure the image covers the box */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* About Me Section */
+#about {
+    background: transparent; /* No background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+.about-me-img {
+    width: 400px; /* Adjusted size */
+    height: 400px; /* Adjusted size */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    object-fit: cover; /* Ensure the image covers the box */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    text-align: center; /* Center text and images */
+}
+
+.project {
+    background: transparent; /* No background color */
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Adjusted size */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure the image covers the circle */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
+}
+
+/* Contact Section */
+#contact {
+    background: transparent; /* No background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff
